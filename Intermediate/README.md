@@ -168,7 +168,4 @@ The system handles various error scenarios:
 
 Deposit and withdrawal operations are synchronized to ensure thread-safe concurrent access.
 
-## Author
-
-Created for ShadowFox Intermediate Level Tasks
 
