@@ -1,0 +1,6 @@
+com\shadowfox\inventory\service\InventoryManager.class
+com\shadowfox\inventory\controller\MainController.class
+com\shadowfox\inventory\InventoryApp.class
+com\shadowfox\inventory\service\InventoryManager$1.class
+com\shadowfox\inventory\service\InventoryManager$ItemData.class
+com\shadowfox\inventory\model\InventoryItem.class

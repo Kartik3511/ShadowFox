@@ -67,7 +67,7 @@ public class BankAccount {
     public void printTransactionHistory() {
         System.out.println("\n=== Transaction History for Account: " + accountNumber + " ===");
         System.out.println("Account Holder: " + accountHolder);
-        System.out.println("Current Balance: ₹" + String.format("%.2f", balance));
+        System.out.println("Current Balance: $" + String.format("%.2f", balance));
         System.out.println("\nTransactions:");
         System.out.println("---------------------------------------------------------------");
         
@@ -119,7 +119,7 @@ public class BankAccount {
         @Override
         public String toString() {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            return String.format("[%s] %-18s ₹%-10.2f Balance: ₹%.2f - %s",
+            return String.format("[%s] %-18s $%-10.2f Balance: $%.2f - %s",
                     timestamp.format(formatter),
                     type,
                     amount,

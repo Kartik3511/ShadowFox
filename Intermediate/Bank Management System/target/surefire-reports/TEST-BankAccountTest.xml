@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BankAccountTest" time="0.229" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BankAccountTest" time="0.237" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.14.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\Kartik\AppData\Local\Temp\surefire8654578659603180222\surefirebooter-20260220163904079_3.jar C:\Users\Kartik\AppData\Local\Temp\surefire8654578659603180222 2026-02-20T16-39-03_601-jvmRun1 surefire-20260220163904079_1tmp surefire_0-20260220163904079_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Kartik\AppData\Local\Temp\surefire5754843853470178098\surefirebooter-20260220170314995_3.jar C:\Users\Kartik\AppData\Local\Temp\surefire5754843853470178098 2026-02-20T17-03-14_579-jvmRun1 surefire-20260220170314995_1tmp surefire_0-20260220170314995_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Kartik\OneDrive\Desktop\ShadowFox\Intermediate\Bank Management System\target\test-classes;C:\Users\Kartik\OneDrive\Desktop\ShadowFox\Intermediate\Bank Management System\target\classes;C:\Users\Kartik\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\Kartik\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\Kartik\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Kartik\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Kartik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Kartik\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\Kartik\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\Kartik\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Kartik\AppData\Local\Temp\surefire8654578659603180222\surefirebooter-20260220163904079_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Kartik\AppData\Local\Temp\surefire5754843853470178098\surefirebooter-20260220170314995_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+7"/>
@@ -58,26 +58,26 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testWithdrawalExactBalance" classname="BankAccountTest" time="0.084"/>
-  <testcase name="testTransactionHistoryInitial" classname="BankAccountTest" time="0.002"/>
-  <testcase name="testAccountCreation" classname="BankAccountTest" time="0.002"/>
-  <testcase name="testWithdrawalInsufficientFunds" classname="BankAccountTest" time="0.005"/>
-  <testcase name="testWithdrawalZeroAmount" classname="BankAccountTest" time="0.004"/>
+  <testcase name="testWithdrawalExactBalance" classname="BankAccountTest" time="0.094"/>
+  <testcase name="testTransactionHistoryInitial" classname="BankAccountTest" time="0.001"/>
+  <testcase name="testAccountCreation" classname="BankAccountTest" time="0.001"/>
+  <testcase name="testWithdrawalInsufficientFunds" classname="BankAccountTest" time="0.003"/>
+  <testcase name="testWithdrawalZeroAmount" classname="BankAccountTest" time="0.005"/>
   <testcase name="testTransactionHistoryImmutability" classname="BankAccountTest" time="0.001"/>
   <testcase name="testDepositZeroAmount" classname="BankAccountTest" time="0.002"/>
-  <testcase name="testTransactionHistoryMultipleOperations" classname="BankAccountTest" time="0.002"/>
-  <testcase name="testTransactionTimestamps" classname="BankAccountTest" time="0.023"/>
+  <testcase name="testTransactionHistoryMultipleOperations" classname="BankAccountTest" time="0.001"/>
+  <testcase name="testTransactionTimestamps" classname="BankAccountTest" time="0.025"/>
   <testcase name="testDepositNegativeAmount" classname="BankAccountTest" time="0.003"/>
   <testcase name="testWithdrawalNegativeAmount" classname="BankAccountTest" time="0.002"/>
   <testcase name="testZeroBalanceAccount" classname="BankAccountTest" time="0.001"/>
   <testcase name="testMultipleWithdrawals" classname="BankAccountTest" time="0.001"/>
-  <testcase name="testAccountCreationWithZeroBalance" classname="BankAccountTest" time="0.002"/>
-  <testcase name="testConcurrentDeposits" classname="BankAccountTest" time="0.008"/>
-  <testcase name="testDeposit" classname="BankAccountTest" time="0.002"/>
-  <testcase name="testMultipleDeposits" classname="BankAccountTest" time="0"/>
-  <testcase name="testTransactionHistoryAfterDeposit" classname="BankAccountTest" time="0.001"/>
-  <testcase name="testTransactionHistoryAfterWithdrawal" classname="BankAccountTest" time="0.001"/>
+  <testcase name="testAccountCreationWithZeroBalance" classname="BankAccountTest" time="0.001"/>
+  <testcase name="testConcurrentDeposits" classname="BankAccountTest" time="0.006"/>
+  <testcase name="testDeposit" classname="BankAccountTest" time="0.003"/>
+  <testcase name="testMultipleDeposits" classname="BankAccountTest" time="0.002"/>
+  <testcase name="testTransactionHistoryAfterDeposit" classname="BankAccountTest" time="0.002"/>
+  <testcase name="testTransactionHistoryAfterWithdrawal" classname="BankAccountTest" time="0.002"/>
   <testcase name="testBalanceInquiry" classname="BankAccountTest" time="0.001"/>
-  <testcase name="testAccountCreationWithNegativeBalance" classname="BankAccountTest" time="0.003"/>
+  <testcase name="testAccountCreationWithNegativeBalance" classname="BankAccountTest" time="0.002"/>
   <testcase name="testWithdrawal" classname="BankAccountTest" time="0.001"/>
 </testsuite>
